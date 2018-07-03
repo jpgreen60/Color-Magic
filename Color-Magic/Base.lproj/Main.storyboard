@@ -39,7 +39,7 @@
                         <barButtonItem key="backBarButtonItem" title="Back" id="IaD-Dm-aHi"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="Qjx-dx-rbz">
                             <connections>
-                                <segue destination="bNK-ir-7Bg" kind="show" id="bkA-LI-cYn"/>
+                                <segue destination="bNK-ir-7Bg" kind="show" identifier="presentColorPickerVC" id="bkA-LI-cYn"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

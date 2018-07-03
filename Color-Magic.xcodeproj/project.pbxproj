@@ -13,6 +13,7 @@
 		73BA689820EAC20E006C8444 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73BA689720EAC20E006C8444 /* Assets.xcassets */; };
 		73BA689B20EAC20E006C8444 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73BA689920EAC20E006C8444 /* LaunchScreen.storyboard */; };
 		73BA68A320EACCBE006C8444 /* ColorPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73BA68A220EACCBE006C8444 /* ColorPickerVC.swift */; };
+		73C5340320EB134F00EB66D6 /* ColorTransferDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73C5340220EB134F00EB66D6 /* ColorTransferDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		73BA689A20EAC20E006C8444 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73BA689C20EAC20E006C8444 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73BA68A220EACCBE006C8444 /* ColorPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerVC.swift; sourceTree = "<group>"; };
+		73C5340220EB134F00EB66D6 /* ColorTransferDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTransferDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				73BA689020EAC20D006C8444 /* AppDelegate.swift */,
+				73C5340220EB134F00EB66D6 /* ColorTransferDelegate.swift */,
 				73BA689220EAC20D006C8444 /* ColorPresenterVC.swift */,
 				73BA68A220EACCBE006C8444 /* ColorPickerVC.swift */,
 				73BA689420EAC20D006C8444 /* Main.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73BA689320EAC20D006C8444 /* ColorPresenterVC.swift in Sources */,
+				73C5340320EB134F00EB66D6 /* ColorTransferDelegate.swift in Sources */,
 				73BA689120EAC20D006C8444 /* AppDelegate.swift in Sources */,
 				73BA68A320EACCBE006C8444 /* ColorPickerVC.swift in Sources */,
 			);
